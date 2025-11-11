@@ -39,7 +39,7 @@ Browse the folders in this repository to see available agent guides. Each folder
 
 If you're contributing a new agent guide, please follow the template structure:
 
-1. Create a new folder with a descriptive, kebab-case name (e.g., `customer-support-agent`)
+1. Create a new folder with a descriptive, kebab-case name (e.g., `ai-discovery-cards-agent`)
 2. Include all required files:
    - `README.md` - Agent overview and setup instructions
    - `system-instructions.md` - Complete system prompt
