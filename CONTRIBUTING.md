@@ -8,11 +8,11 @@ Before creating a new agent guide, ensure you have:
 - A working Copilot Studio Lite agent that has been tested and validated
 - Clear documentation of the agent's purpose and use cases
 - All necessary knowledge sources properly documented
-- A set of starter prompts that demonstrate the agent's capabilities
+- A set of suggested prompts that demonstrate the agent's capabilities
 
 ## Agent Guide Structure
 
-Each agent guide must follow this standardized structure:
+Each agent guide must follow this standardized structure below. For easy creation, copy and rename the `agent-guide-template/` folder
 
 ### Folder Naming
 - Use lowercase letters with hyphens (kebab-case)
@@ -44,7 +44,7 @@ Document all knowledge sources used by the agent:
 Folder containing all files needed for upload (.txt, .docx, .pptx, .pdf, etc)
 - **Public Data Only**: Use only publicly available knowledge sources or provide clear instructions for obtaining proprietary sources
 
-#### 4. starter-prompts.md
+#### 4. suggested-prompts.md
 Provide 3 or more example prompts that demonstrate the agent's capabilities:
 - Cover different use cases
 - Range from simple to complex queries
@@ -59,7 +59,7 @@ Provide 3 or more example prompts that demonstrate the agent's capabilities:
 
 2. **Test Your Guide**:
    - Follow your own instructions to deploy the agent
-   - Verify all starter prompts work as expected
+   - Verify all suggested prompts work as expected
 
 3. **Submit a Pull Request**:
    - Fork the repository
@@ -73,7 +73,7 @@ Provide 3 or more example prompts that demonstrate the agent's capabilities:
    - [ ] README.md is complete and clear
    - [ ] system-instructions.md contains the full prompt
    - [ ] knowledge-sources.md documents all sources
-   - [ ] starter-prompts.md includes 3+ examples
+   - [ ] suggested-prompts.md includes 3+ examples
    - [ ] Agent has been tested successfully
    - [ ] No sensitive information is included
 

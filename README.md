@@ -16,7 +16,7 @@ agent-name/
 ├── system-instructions.md    # Declarative agent system instructions (prompt)
 ├── knowledge-sources.md      # Documentation and links to knowledge sources
 ├── knowledge-sources/        # Files required for upload
-└── starter-prompts.md        # Example prompts to get started with the agent
+└── suggested-prompts.md        # Example prompts to get started with the agent
 ```
 
 ## Available Agent Guides
@@ -27,25 +27,25 @@ Browse the folders in this repository to see available agent guides. Each folder
 
 1. **Choose an Agent**: Browse the available agent folders and select the one that fits your needs
 2. **Review the README**: Each agent folder contains a README.md with specific setup instructions
-3. **Gather Components**: Collect the system instructions, knowledge sources, and starter prompts
+3. **Gather Components**: Collect the system instructions, knowledge sources, and suggested prompts
 4. **Deploy to Copilot Studio Lite**:
    - Create a new agent in Copilot Studio Lite (copilot.microsoft.com)
    - Copy the system instructions from `system-instructions.md` into the agent's prompt configuration
    - Upload or link the knowledge sources as specified in `knowledge-sources.md` and/or uploaded to `knowledge-sources/`
-   - Add the starter prompts from `starter-prompts.md` to help users get started
-5. **Test and Customize**: Test the agent with the provided starter prompts and customize as needed for your specific use case
+   - Add the suggested prompts from `suggested-prompts.md` to help users get started
+5. **Test and Customize**: Test the agent with the provided suggested prompts and customize as needed for your specific use case
 
 ## Creating a New Agent Guide
 
-If you're contributing a new agent guide, please follow the template structure:
+If you're contributing a new agent guide, you can copy the `agent-guide-template/` folder, and customize the details. Agent guides should follow the template structure:
 
-1. Create a new folder with a descriptive, kebab-case name (e.g., `ai-discovery-cards-agent`)
+1. A folder for your agent with a descriptive, kebab-case name (e.g., `ai-discovery-cards-agent`)
 2. Include all required files:
    - `README.md` - Agent overview and setup instructions
    - `system-instructions.md` - Complete system prompt
    - `knowledge-sources.md` - Knowledge source documentation
    - `knowledge-sources/` (Optional) Files for upload
-   - `starter-prompts.md` - Example prompts
+   - `suggested-prompts.md` - Example prompts
 3. Follow the guidelines in [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ## Support
