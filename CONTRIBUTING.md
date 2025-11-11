@@ -24,7 +24,7 @@ Each agent guide must follow this standardized structure below. For easy creatio
 #### 1. README.md
 The README should include:
 - **Agent Name**: Clear, descriptive name
-- **Purpose**: What problem does this agent solve?
+- **Description**: What problem does this agent solve?
 - **Target Use Cases**: Specific scenarios where this agent excels
 
 #### 2. system-instructions.md
