@@ -16,7 +16,7 @@ agent-name/
 ├── system-instructions.md    # Declarative agent system instructions (prompt)
 ├── knowledge-sources.md      # Documentation and links to knowledge sources
 ├── knowledge-sources/        # Files required for upload
-└── suggested-prompts.md        # Example prompts to get started with the agent
+└── suggested-prompts.md      # Example prompts to get started with the agent
 ```
 
 ## Available Agent Guides
