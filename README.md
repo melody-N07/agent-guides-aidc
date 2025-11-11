@@ -15,6 +15,7 @@ agent-name/
 ├── README.md                 # Overview and setup instructions for this agent
 ├── system-instructions.md    # Declarative agent system instructions (prompt)
 ├── knowledge-sources.md      # Documentation and links to knowledge sources
+├── knowledge-sources/        # Files required for upload
 └── starter-prompts.md        # Example prompts to get started with the agent
 ```
 
@@ -28,9 +29,9 @@ Browse the folders in this repository to see available agent guides. Each folder
 2. **Review the README**: Each agent folder contains a README.md with specific setup instructions
 3. **Gather Components**: Collect the system instructions, knowledge sources, and starter prompts
 4. **Deploy to Copilot Studio Lite**:
-   - Create a new agent in Copilot Studio Lite
+   - Create a new agent in Copilot Studio Lite (copilot.microsoft.com)
    - Copy the system instructions from `system-instructions.md` into the agent's prompt configuration
-   - Upload or link the knowledge sources as specified in `knowledge-sources.md`
+   - Upload or link the knowledge sources as specified in `knowledge-sources.md` and/or uploaded to `knowledge-sources/`
    - Add the starter prompts from `starter-prompts.md` to help users get started
 5. **Test and Customize**: Test the agent with the provided starter prompts and customize as needed for your specific use case
 
@@ -43,6 +44,7 @@ If you're contributing a new agent guide, please follow the template structure:
    - `README.md` - Agent overview and setup instructions
    - `system-instructions.md` - Complete system prompt
    - `knowledge-sources.md` - Knowledge source documentation
+   - `knowledge-sources/` (Optional) Files for upload
    - `starter-prompts.md` - Example prompts
 3. Follow the guidelines in [CONTRIBUTING.md](CONTRIBUTING.md)
 
