@@ -4,7 +4,7 @@ Agent replication guides for Microsoft Partners to recreate Microsoft-developed 
 
 ## Overview
 
-This repository contains ready-to-use agent guides designed to help Microsoft partners quickly replicate and deploy specialized Copilot Studio Lite agents for their customers. Each agent guide provides all the necessary components to set up a functional agent.
+This repository contains ready-to-use agent guides designed to help Microsoft partners quickly replicate and deploy specialized Copilot Studio Lite agents to leverage with their customers. Each agent guide provides all the necessary components to set up a functional agent.
 
 ## Repository Structure
 
