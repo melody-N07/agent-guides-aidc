@@ -1,10 +1,10 @@
 ## [Template] Agent Guide
 
-**Agent Name**: Clear, descriptive name
+**Agent Name**: AI Discovery Card Agent
 
-**Description**: What problem does this agent solve?
+**Description**: Used to assist with AI Discovery Card workshop delivery with partners and customers.
 
-**Target Use Cases**: Specific scenarios where this agent excels
+**Target Use Cases**: Accelerate and assist with AI Discovery Card workshop delivery, use case ideation and prioritization.
 
 1. Navigate to copilot.microsoft.com
 
