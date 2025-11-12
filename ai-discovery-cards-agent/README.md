@@ -1,4 +1,4 @@
-## [Template] Agent Guide
+## Agent Guide
 
 **Agent Name**: AI Discovery Card Agent
 
